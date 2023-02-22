@@ -1,11 +1,11 @@
 Запускаем приветствие: print( "Добро пожаловать в телефонную книгу") 
  
-Создаём файл .txt для хранения контактной информации 
+Создаём файл .json для хранения контактной информации 
 
-filename = "myphonebook.txt" 
+filename = "phonebook.json" 
 myfile = open(filename, "a+") 
-myfile.close
-
+myfile.close 
+ 
 Оформляем главное меню
 
  def main_menu(): 
