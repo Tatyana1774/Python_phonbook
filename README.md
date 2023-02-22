@@ -40,6 +40,7 @@ myfile.close
  
  
 Задаём определение функции поиска         
+
 def searchcontact(): 
     searchname = input( "Введите имя для поиска контакта: ") 
     remname = searchname[1:] 
@@ -59,6 +60,7 @@ def searchcontact():
         print( "Данный контакт недоступен в телефонной книге", searchname) 
  
 Задаём Имя
+
 def input_firstname(): 
     first = input( "Введите имя: ") 
     remfname = first[1:] 
