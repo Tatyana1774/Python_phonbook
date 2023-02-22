@@ -1,11 +1,13 @@
 Запускаем приветствие: print( "Добро пожаловать в телефонную книгу") 
  
 Создаём файл .txt для хранения контактной информации 
+
 filename = "myphonebook.txt" 
 myfile = open(filename, "a+") 
 myfile.close
 
 Оформляем главное меню
+
  def main_menu(): 
     print( "\nМЕНЮ\n") 
     print( "1. Показать все контакты") 
@@ -68,6 +70,7 @@ def input_firstname():
     return firstchar.upper() + remfname 
  
 Задаём Фамилию
+
 def input_lastname(): 
     last = input( "Введите фамилию: ") 
     remlname = last[1:] 
@@ -75,6 +78,7 @@ def input_lastname():
     return firstchar.upper() + remlname 
  
 Сохраняем новые контактные данные
+
 def newcontact(): 
     firstname = input_firstname() 
     lastname = input_lastname() 
