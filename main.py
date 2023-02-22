@@ -1,11 +1,22 @@
 # приветствие 
 print( "Добро пожаловать в телефонную книгу") 
- 
-# создание файла .txt для хранения контактной информации 
-filename = "myphonebook.txt" 
+
+filename = "phonebook.json" 
 myfile = open(filename, "a+") 
 myfile.close 
  
+# создание файла .txt для хранения контактной информации 
+
+# def save():
+#     with open("phonebook.json","w",encoding="utf-8") as fh:
+#         fh.write(json.dumps(phonebook,ensure_ascii=False))
+#         print("Наш справочник был успешно сохранен в файле phonebook.json")
+# def load():
+#     global phonebook
+#     with open("phonebook.json","r",encoding="utf-8") as fh:
+#         phonebook = json.load(fh)
+#     print("Справочник был успешно загружен!")
+
 # Главное меню
 def main_menu(): 
     print( "\nМЕНЮ\n") 
